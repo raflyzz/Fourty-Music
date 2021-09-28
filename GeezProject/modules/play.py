@@ -534,15 +534,15 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("🤴 OWNERS", url="https://t.me/Itsbox"),
+                    InlineKeyboardButton("🛡️ CHANNEL", url="https://t.me/FOURTYINFO"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/fa2cdb8a14a26950da711.png"
+        thumb_name = "https://telegra.ph/file/95a03c30d23d0e5520c98.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -581,8 +581,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🤴 OWNERS", url="https://t.me/Itsbox"),
+                    InlineKeyboardButton("🛡️ CHANNEL", url="https://t.me/FOURTYINFO"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -612,7 +612,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ 💡 **Duration** - {results[j]['duration']}\n"
-                toxxt += f" └ ⚡ __Powered by Geez Music Project__\n\n"
+                toxxt += f" └ ⚡ __Powered by Fourty Music__\n\n"
 
                 j += 1            
             koyboard = InlineKeyboardMarkup(
@@ -659,8 +659,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🤴 OWNERS", url="https://t.me/Itsbox"),
+                    InlineKeyboardButton("🛡️ CHANNEL", url="https://t.me/FOURTYINFO"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -719,7 +719,7 @@ async def ytplay(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GeezProject"
+        user.first_name = "Fourty Music"
     usar = user
     wew = usar.id
     try:
@@ -801,8 +801,8 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🤴 OWNERS", url="https://t.me/Itsbox"),
+                    InlineKeyboardButton("🛡️ CHANNEL", url="https://t.me/FOURTYINFO"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -924,7 +924,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/fa2cdb8a14a26950da711.png"
+        thumbnail = "https://telegra.ph/file/95a03c30d23d0e5520c98.jpg"
 
     except:
         await res.edit("**Tidak Ditemukan Lagu Apa Pun!**")
@@ -939,7 +939,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+                    InlineKeyboardButton("🛡️ CHANNEL", url="https://t.me/FOURTYINFO"),
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1034,8 +1034,8 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🤴 OWNERS", url="https://t.me/Itsbox"),
+                    InlineKeyboardButton("🛡️ CHANNEL", url="https://t.me/FOURTYINFO"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
